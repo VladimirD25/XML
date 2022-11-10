@@ -1,1 +1,18 @@
 # XML
+<bug_report> 
+<id>B1</id>
+<summary>Incomplete digits displaying of the number of items in the cart when entering a three-digit value</summary>
+<preconditions>site is opened. 
+               any item added to cart. 
+               cart is opened.</preconditions>
+<steps_to_reproduce>1) enter '99' in the number of units of goods, press 'Enter'. 
+                    2) click on '+' button.</steps_to_reproduce>
+
+<expected_result>Full displaying of digits for the number of items in the cart</expected_result>
+<actual_result>the digits of the number of items in the cart are not displayed completely</actual_result>
+<severity>minor</severity>
+<priority>low</priority>
+<environment>windows 10 Chrome 107.0.5304.88</environment>
+<attachment>link</attachment>
+<reporter>Vladimir</reporter>
+</bug_report>
